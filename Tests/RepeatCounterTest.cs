@@ -9,5 +9,11 @@ namespace RepeatCounter
       RepeatCounter testRepeatCounter = new RepeatCounter();
       Assert.Equal(0, testRepeatCounter.Count("c#","java"));
     }
+    [Fact]
+    public void RepeatCounter_ForTwoWordsThatMatch_1()
+    {
+      RepeatCounter testRepeatCounter = new RepeatCounter();
+      Assert.Equal(1, testRepeatCounter.Count("c#","c#"));
+    }
   }
 }
