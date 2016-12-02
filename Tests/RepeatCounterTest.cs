@@ -6,20 +6,20 @@ namespace RepeatCounter
     [Fact]
     public void RepeatCounter_ForTwoWordsThatDontMatch_0()
     {
-      RepeatCounter testRepeatCounter = new RepeatCounter("c#","java");
-      Assert.Equal(0, testRepeatCounter.CountRepeats());
+      RepeatCounter testRepeatCounter = new RepeatCounter();
+      Assert.Equal(0, testRepeatCounter.CountRepeats("c#","java"));
     }
     [Fact]
     public void RepeatCounter_ForTwoWordsThatMatch_1()
     {
-      RepeatCounter testRepeatCounter = new RepeatCounter("c#","c#");
-      Assert.Equal(1, testRepeatCounter.CountRepeats());
+      RepeatCounter testRepeatCounter = new RepeatCounter();
+      Assert.Equal(1, testRepeatCounter.CountRepeats("c#","c#"));
     }
     [Fact]
     public void RepeatCounter_ForManyThatMatch_2()
     {
-      RepeatCounter testRepeatCounter = new RepeatCounter("c# c#","c#");
-      Assert.Equal(2, testRepeatCounter.CountRepeats());
+      RepeatCounter testRepeatCounter = new RepeatCounter();
+      Assert.Equal(2, testRepeatCounter.CountRepeats("c# c#","c#"));
     }
   }
 }
