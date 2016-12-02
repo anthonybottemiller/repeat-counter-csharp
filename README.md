@@ -33,9 +33,9 @@ This page is intended to allow the user to input two strings and return to the u
 ##Specifications
 | Behavior                                                                                                             | Input        | Output |
 |----------------------------------------------------------------------------------------------------------------------|--------------|--------|
-| User inputs two words that do not match. Program returns a count of 0                                                | php, java    | 0      |
-| User inputs two words that do match. Program returns a count of 1                                                    | php, php     | 1      |
-| User inputs more than one word to compare against a single word. Program returns a count equal to number of matches. | php php, php | 2      |
+| User inputs two words that do not match. Program returns a count of 0                                                | c#, java    | 0      |
+| User inputs two words that do match. Program returns a count of 1                                                    | c#, c#     | 1      |
+| User inputs more than one word to compare against a single word. Program returns a count equal to number of matches. | c# c#, c# | 2      |
 
 ##Legal
 Copyright (c) 2016 Anthony J Bottemiller
