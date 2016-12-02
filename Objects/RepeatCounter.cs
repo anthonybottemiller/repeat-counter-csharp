@@ -5,9 +5,13 @@ namespace RepeatCounter
     private int _wordCount = 0;
     public int Count(string inputString, string comparisonString)
     {
-      if (inputString == comparisonString)
+      string[] words = inputString.Split();
+      foreach (string word in words)
       {
-        _wordCount++;
+        if (word == comparisonString)
+        {
+          _wordCount++;
+        }
       }
       return _wordCount;
     }
