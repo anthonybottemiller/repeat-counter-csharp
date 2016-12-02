@@ -1,4 +1,12 @@
 <div class="container">
     <h1>Repeat Counter: Results</h1>
+    @{
+      var result = "Your word was found " + Model.GetWordCount() + " time";
+      if (Model.GetWordCount() == 0 || Model.GetWordCount() > 1)
+      {
+        result = result + "s";
+      }
+    }
+    <h2>@result</h2>
     <a href="/"><button class="btn btn-lg btn-primary">Go Back</button></a>
 </div>
