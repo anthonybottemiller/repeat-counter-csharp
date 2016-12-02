@@ -9,6 +9,9 @@ namespace RepeatCounter
       Get["/"] = _ => {
         return View["index.cshtml"];
       };
+      Post["/count"] = _ => {
+        return View["result.cshtml"];
+      };
     }
   }
 }
