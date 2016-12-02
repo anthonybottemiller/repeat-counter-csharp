@@ -15,5 +15,11 @@ namespace RepeatCounter
       RepeatCounter testRepeatCounter = new RepeatCounter();
       Assert.Equal(1, testRepeatCounter.Count("c#","c#"));
     }
+    [Fact]
+    public void RepeatCounter_ForManyThatMatch_2()
+    {
+      RepeatCounter testRepeatCounter = new RepeatCounter();
+      Assert.Equal(2, testRepeatCounter.Count("c# c#","c#"));
+    }
   }
 }
