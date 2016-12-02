@@ -26,7 +26,7 @@ This page is intended to allow the user to input two strings and return to the u
 ##Installation
 * Clone repository
 * Using command line change working directory to cloned repository
-* Execute command "dnu restore"
+* Execute command "dnu restore" in order to resolve project dependencies
 * Start web server "dnx kestrel"
 * Navigate to web server using Modern Web Browser
 
