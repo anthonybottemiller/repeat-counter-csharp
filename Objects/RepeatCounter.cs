@@ -10,6 +10,10 @@ namespace RepeatCounter
       _inputString = inputString;
       _comparisonString = comparisonString;
     }
+    public int GetWordCount()
+    {
+      return _wordCount;
+    }    
     public int Count()
     {
       string[] words = _inputString.Split(' ');
