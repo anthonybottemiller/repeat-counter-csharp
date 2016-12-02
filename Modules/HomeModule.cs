@@ -1,5 +1,4 @@
 using Nancy;
-using RepeatCounter.Objects;
 
 namespace RepeatCounter
 {
@@ -8,6 +7,6 @@ namespace RepeatCounter
     public HomeModule()
     {
 
-    };
+    }
   }
 }
