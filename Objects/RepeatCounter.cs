@@ -14,7 +14,7 @@ namespace RepeatCounter
     {
       return _wordCount;
     }    
-    public int Count()
+    public int CountRepeats()
     {
       string[] words = _inputString.Split(' ');
       foreach (string word in words)
