@@ -11,6 +11,8 @@ This page is intended to allow the user to input two strings and return to the u
 * HTML
 * CSS
 * BOOTSTRAP
+* JavaScript
+* jQuery
 * C#
 * Mono
 * Nancy
