@@ -5,6 +5,7 @@ input {
   color: black;
 }
 .container {
+  color: white;
   display: none;
   border: 15px;
   border-radius:  10px;
