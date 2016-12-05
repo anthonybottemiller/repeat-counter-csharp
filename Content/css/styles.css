@@ -1,9 +1,11 @@
 body {
   background-color: #FF530D
 }
+
 input {
   color: black;
 }
+
 .container {
   color: white;
   display: none;
@@ -13,6 +15,7 @@ input {
   box-shadow: 5px 5px black;
   margin: 10px;
 }
+
 .container button {
   margin: 5px;
   box-shadow: 2px 2px black;
