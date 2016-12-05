@@ -2,7 +2,7 @@
 
 #####This project counts the number of times a string is found in a second string
 
-#####By Anthony J Bottemiller - 12-2-2016
+#####By Anthony J Bottemiller - 12-4-2016
 
 ##Description
 This page is intended to allow the user to input two strings and return to the user a result of how many times a particular string is found in another if at all.
