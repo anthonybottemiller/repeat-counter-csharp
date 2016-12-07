@@ -11,7 +11,7 @@ namespace RepeatCounter
     }    
     public int CountRepeats(string inputString, string comparisonString)
     {
-      string[] words = inputString.Split(' ');
+      string[] words = inputString.ToLower().Split(' ');
       foreach (string word in words)
       {
         if (word == comparisonString)
