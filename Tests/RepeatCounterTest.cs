@@ -33,5 +33,12 @@ namespace RepeatCounter
       RepeatCounter testRepeatCounter = new RepeatCounter();
       Assert.Equal(2, testRepeatCounter.CountRepeats("python c# c# python","c#"));
     }
+    [Fact]
+    public void RepeatCounter_ForManyThatMatchAndManyDontMatchMixedCase_2()
+    {
+      RepeatCounter testRepeatCounter = new RepeatCounter();
+      Assert.Equal(2, testRepeatCounter.CountRepeats("python C# c# python","c#"));
+    }
+
   }
 }
