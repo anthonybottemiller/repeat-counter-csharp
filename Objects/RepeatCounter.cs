@@ -14,7 +14,7 @@ namespace RepeatCounter
       string[] words = inputString.ToLower().Split(' ');
       foreach (string word in words)
       {
-        if (word == comparisonString)
+        if (word == comparisonString.ToLower())
         {
           _wordCount++;
         }
