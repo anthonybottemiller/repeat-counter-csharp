@@ -38,7 +38,10 @@ This page is intended to allow the user to input two strings and return to the u
 | User inputs two words that do not match. Program returns a count of 0                                                | c#, java    | 0      |
 | User inputs two words that do match. Program returns a count of 1                                                    | c#, c#     | 1      |
 | User inputs more than one word to compare against a single word. Program returns a count equal to number of matches. | c# c#, c# | 2      |
-
+| User inputs more than one word to be searched one doesn't match Program Returns a count of 2                       | c# c# python, c# | 2  |
+| User inputs more than one word to be searched more than one don't match Program returns a count of 2                 | python c# c# python, c# | 2   |
+| User inputs more than one word to be searched with mixed case Program returns a count of 2                           | python C# c# python, c# | 2   |
+| User inputs more than one word to be searched with mixed case including search string Program returns a count of 2   | python C# c# python, C# | 2   |
 ##Legal
 Copyright (c) 2016 Anthony J Bottemiller
 
